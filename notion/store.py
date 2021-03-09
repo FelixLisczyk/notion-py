@@ -310,7 +310,7 @@ class RecordStore(object):
         sort=[],
         calendar_by="",
         group_by="",
-        limit=50
+        limit=1000000
     ):
 
         assert not (
