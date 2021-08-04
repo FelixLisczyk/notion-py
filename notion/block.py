@@ -541,6 +541,7 @@ class PageBlock(BasicBlock):
     )
 
     locked = field_map("format.block_locked")
+    page_full_width = field_map("format.page_full_width")
 
     def get_backlinks(self):
         """
